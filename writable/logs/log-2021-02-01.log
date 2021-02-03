@@ -1,0 +1,22 @@
+CRITICAL - 2021-02-01 14:20:14 --> Undefined property: stdClass::$jdl_buku
+#0 E:\perpus\app\Views\pengembalian\v_kembali.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\perpus\\app\\V...', 140, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pengembalian/v_...', Array, true)
+#3 E:\perpus\app\Controllers\Pengembalian.php(40): view('pengembalian/v_...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-02-01 14:20:30 --> Undefined property: stdClass::$nama_anggota
+#0 E:\perpus\app\Views\pengembalian\v_kembali.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\perpus\\app\\V...', 141, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pengembalian/v_...', Array, true)
+#3 E:\perpus\app\Controllers\Pengembalian.php(40): view('pengembalian/v_...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}

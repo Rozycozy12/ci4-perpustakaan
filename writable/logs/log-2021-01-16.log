@@ -1,0 +1,745 @@
+CRITICAL - 2021-01-16 00:28:28 --> Undefined variable: prodi
+#0 E:\perpus\app\Views\anggota\add_anggota_view.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 106, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/add_ang...', Array, true)
+#3 E:\perpus\app\Controllers\Anggota.php(37): view('anggota/add_ang...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->add_new()
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 00:53:29 --> syntax error, unexpected ';', expecting ')'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('prodi/add_new')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('prodi/add_new')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 00:55:08 --> syntax error, unexpected ';', expecting ')'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('prodi/add_new')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('prodi/add_new')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 01:01:28 --> Column 'id_prodi' cannot be null
+#0 E:\perpus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\perpus\app\Models\Anggota_model.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\perpus\app\Controllers\Anggota.php(52): App\Models\Anggota_model->saveAnggota(Array)
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->save()
+#7 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#11 {main}
+CRITICAL - 2021-01-16 01:06:24 --> Column 'id_prodi' cannot be null
+#0 E:\perpus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\perpus\app\Models\Anggota_model.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\perpus\app\Controllers\Anggota.php(52): App\Models\Anggota_model->saveAnggota(Array)
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->save()
+#7 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#11 {main}
+CRITICAL - 2021-01-16 01:18:44 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::Post()
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->save()
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:23:26 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:28:30 --> Trying to get property 'nim' of non-object
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Anggota.php(67): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 01:29:45 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:31:10 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:31:18 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:39:48 --> Call to a member function getAnggota() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:49:34 --> Call to a member function getResultArray() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:52:54 --> Call to a member function getResult() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:53:31 --> Call to a member function getresult() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:54:21 --> Trying to get property 'nim' of non-object
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Anggota.php(68): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 01:57:15 --> Call to a member function get() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:59:15 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\perpus\\app\\/...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Angg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Angg...')
+#3 E:\perpus\app\Controllers\Anggota.php(59): spl_autoload_call('App\\Models\\Angg...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 01:59:54 --> Call to a member function get() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 02:00:09 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 02:00:14 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 02:01:17 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('anggota/edit/TI...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('anggota/edit/TI...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 02:02:48 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('anggota/edit/TI...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('anggota/edit/TI...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 02:03:04 --> syntax error, unexpected ','
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('anggota/edit/TI...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('anggota/edit/TI...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 02:03:27 --> Object of class App\Models\Anggota_model could not be converted to string
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 02:04:31 --> Object of class App\Models\Anggota_model could not be converted to string
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 02:31:03 --> Column 'id_user' cannot be null
+#0 E:\perpus\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\perpus\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\perpus\app\Models\Peminjaman_model.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\perpus\app\Controllers\Peminjaman.php(46): App\Models\Peminjaman_model->savePeminjaman(Array)
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->save()
+#7 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#8 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#11 {main}
+CRITICAL - 2021-01-16 02:31:55 --> syntax error, unexpected '}'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('peminjaman/add_...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('peminjaman/add_...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 02:34:47 --> Undefined index: id_pinjamd
+#0 E:\perpus\app\Views\peminjaman\v_data.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 34, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-16 02:36:33 --> Undefined index: nama_anggota
+#0 E:\perpus\app\Views\peminjaman\v_data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 29, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-16 02:39:41 --> Undefined index: nama_anggota
+#0 E:\perpus\app\Views\peminjaman\v_data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 29, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-16 02:41:41 --> Undefined index: nama_anggota
+#0 E:\perpus\app\Views\peminjaman\v_data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 29, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-16 11:27:33 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:30:10 --> Undefined variable: model_p
+#0 E:\perpus\app\Controllers\Anggota.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\C...', 36, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 11:32:48 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:34:44 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:34:46 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:34:59 --> Trying to get property 'nim' of non-object
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Anggota.php(68): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:35:11 --> Trying to get property 'nim' of non-object
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Anggota.php(68): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:40:54 --> Call to a member function getAnggota() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:41:19 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:44:31 --> Call to undefined method App\Controllers\Peminjaman::renderView()
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 11:45:12 --> Undefined variable: buku
+#0 E:\perpus\app\Views\peminjaman\v_pinjam.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 102, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_pi...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_pi...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:56:25 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:57:42 --> Undefined variable: buku
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:59:34 --> Undefined variable: buku
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 11:59:49 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 12:00:32 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 12:01:35 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(59): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 12:01:57 --> syntax error, unexpected ';', expecting ']'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('peminjaman/edit...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('peminjaman/edit...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 12:03:27 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:05:25 --> Undefined index: nama_anggota
+#0 E:\perpus\app\Views\peminjaman\v_data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 29, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-16 12:07:13 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:07:23 --> Call to a member function getResultArray() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:07:46 --> Call to a member function pg_get_result() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:12:55 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 12:21:08 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:27:26 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 12:27:37 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:27:50 --> Call to a member function getResult() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:27:58 --> Call to a member function getResultArray() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 12:46:58 --> syntax error, unexpected ''id_pinjam'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('peminjaman/edit...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('peminjaman/edit...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 12:47:24 --> syntax error, unexpected ''id_pinjam'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('peminjaman/edit...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('peminjaman/edit...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 12:47:34 --> syntax error, unexpected ''id_pinjam'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('peminjaman/edit...')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('peminjaman/edit...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:00:48 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Anggota->edit('TI15180002')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 17:01:54 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 17:04:38 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 17:04:40 --> Call to a member function getRow() on array
+#0 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 17:04:54 --> Undefined variable: anggota
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:06:41 --> Undefined variable: anggota
+#0 E:\perpus\app\Views\anggota\edit_anggota_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('anggota/edit_an...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('anggota/edit_an...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:07:43 --> Undefined variable: data
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:08:08 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:08:43 --> Trying to get property 'kd_buku' of non-object
+#0 E:\perpus\app\Views\peminjaman\v_edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_ed...', Array, true)
+#3 E:\perpus\app\Controllers\Peminjaman.php(62): view('peminjaman/v_ed...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->edit('1')
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:08:53 --> syntax error, unexpected ''jdl_buku'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('peminjaman/v_da...', Array, true)
+#1 E:\perpus\app\Views\layout\v_content.php(3): view('peminjaman/v_da...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#3 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#4 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#6 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#7 E:\perpus\app\Controllers\Peminjaman.php(19): view('layout/v_wrappe...', Array)
+#8 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Peminjaman->index()
+#9 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#13 {main}
+CRITICAL - 2021-01-16 17:45:40 --> Call to undefined method App\Models\User_model::getPeminjaman
+#0 E:\perpus\app\Controllers\Pengembalian.php(34): CodeIgniter\Model->__call('getPeminjaman', Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:48:02 --> Call to undefined method App\Models\User_model::getPeminjaman
+#0 E:\perpus\app\Controllers\Pengembalian.php(34): CodeIgniter\Model->__call('getPeminjaman', Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:48:06 --> Call to undefined method App\Models\User_model::getPeminjaman
+#0 E:\perpus\app\Controllers\Pengembalian.php(34): CodeIgniter\Model->__call('getPeminjaman', Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:48:36 --> Call to undefined method App\Models\User_model::getPeminjaman
+#0 E:\perpus\app\Controllers\Pengembalian.php(34): CodeIgniter\Model->__call('getPeminjaman', Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:51:39 --> Undefined variable: model_p
+#0 E:\perpus\app\Controllers\Pengembalian.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\C...', 34, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-16 17:55:53 --> Undefined variable: row
+#0 E:\perpus\app\Views\pengembalian\v_kembali.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 99, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pengembalian/v_...', Array, true)
+#3 E:\perpus\app\Controllers\Pengembalian.php(36): view('pengembalian/v_...', Array)
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#5 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#6 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 17:56:21 --> syntax error, unexpected end of file
+#0 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pengembalian/v_...', Array, true)
+#1 E:\perpus\app\Controllers\Pengembalian.php(36): view('pengembalian/v_...', Array)
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pengembalian->add_new()
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengembalian))
+#4 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#7 {main}

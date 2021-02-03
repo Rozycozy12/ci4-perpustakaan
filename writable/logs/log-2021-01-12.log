@@ -1,0 +1,58 @@
+CRITICAL - 2021-01-12 00:34:15 --> Undefined index: nim
+#0 E:\perpus\app\Views\user\user_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\perpus\\app\\V...', 30, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/user_view', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('user/user_view')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\User.php(16): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
+CRITICAL - 2021-01-12 00:36:51 --> syntax error, unexpected ''user'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('user')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-12 00:37:24 --> Undefined variable: id
+#0 E:\perpus\app\Controllers\User.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\C...', 91, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->profil()
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-12 00:38:49 --> syntax error, unexpected '<'
+#0 E:\perpus\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/profil')
+#1 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('user/profil')
+#2 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#6 {main}
+CRITICAL - 2021-01-12 00:41:54 --> Undefined variable: row
+#0 E:\perpus\app\Views\user\profile_user_view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\perpus\\app\\V...', 49, Array)
+#1 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#2 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/profile_us...', Array, true)
+#3 E:\perpus\app\Views\layout\v_content.php(3): view('user/profile_us...')
+#4 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#5 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 E:\perpus\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 E:\perpus\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\perpus\\app\\V...')
+#8 E:\perpus\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 E:\perpus\app\Controllers\User.php(93): view('layout/v_wrappe...', Array)
+#10 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->profil()
+#11 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 E:\perpus\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\perpus\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 E:\perpus\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\perpus\\publi...')
+#15 {main}
